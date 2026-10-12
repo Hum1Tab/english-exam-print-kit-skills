@@ -1,0 +1,166 @@
+{
+  "title": "架空の大学入試・練習例",
+  "exam_date": "2026-02-03",
+  "reading": {
+    "theme": "短い動画と集中力",
+    "sentences": [
+      {
+        "paragraph": 1,
+        "paragraph_note": "短い動画と勉強時間",
+        "english": "The report you need to finish might take longer than you expect.",
+        "translation": "仕上げなければならないその報告書は、予想より時間がかかるかもしれない。",
+        "markup": [
+          {
+            "text": "The report",
+            "role": "S"
+          },
+          {
+            "text": " you need to finish",
+            "role": "M→report"
+          },
+          {
+            "text": " might take",
+            "role": "V"
+          },
+          {
+            "text": " longer than you expect.",
+            "role": "M"
+          }
+        ],
+        "explanation": "you need to finish は report を後ろから修飾し、目的格の関係代名詞が省略されている。",
+        "trap": "you need to finish を主節と誤読しない。"
+      },
+      {
+        "paragraph": 1,
+        "english": "Watching short videos made the students more distracted.",
+        "translation": "短い動画を見ることは学生たちの注意をいっそう散漫にした。",
+        "markup": [
+          {
+            "text": "Watching short videos",
+            "role": "S"
+          },
+          {
+            "text": " made",
+            "role": "V"
+          },
+          {
+            "text": " the students",
+            "role": "O"
+          },
+          {
+            "text": " more distracted.",
+            "role": "C"
+          }
+        ],
+        "explanation": "動名詞句が主語。make O C で「OをCにする」。"
+      },
+      {
+        "paragraph": 2,
+        "paragraph_note": "対比と結論",
+        "english": "Although both groups completed the same tasks, their results differed.",
+        "translation": "両グループは同じ課題を終えたにもかかわらず、結果は異なっていた。",
+        "markup": [
+          {
+            "text": "Although both groups completed the same tasks,",
+            "role": "譲歩節"
+          },
+          {
+            "text": " their results",
+            "role": "S"
+          },
+          {
+            "text": " differed.",
+            "role": "V"
+          }
+        ],
+        "logic": "同一条件なのに結果が異なるという対比。"
+      },
+      {
+        "paragraph": 2,
+        "english": "The order of their activities changed how they spent their time.",
+        "translation": "活動の順番によって、彼らの時間の使い方が変わった。",
+        "explanation": "how they spent their time は changed の目的語となる間接疑問節。"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "report",
+        "reading": "リポート",
+        "meaning": "報告書",
+        "leap_revised_no": null
+      },
+      {
+        "word": "expect",
+        "reading": "イクスペクト",
+        "meaning": "予想する",
+        "leap_revised_no": null
+      },
+      {
+        "word": "distracted",
+        "reading": "ディストラクティド",
+        "meaning": "注意散漫な",
+        "leap_revised_no": null
+      },
+      {
+        "word": "complete",
+        "reading": "コンプリート",
+        "meaning": "終える",
+        "leap_revised_no": null
+      },
+      {
+        "word": "differ",
+        "reading": "ディファー",
+        "meaning": "異なる",
+        "leap_revised_no": null
+      },
+      {
+        "word": "activity",
+        "reading": "アクティビティ",
+        "meaning": "活動",
+        "leap_revised_no": null
+      }
+    ],
+    "idioms": [
+      {
+        "phrase": "take longer than",
+        "meaning": "〜より長くかかる",
+        "note": "比較",
+        "leap_revised_no": null
+      },
+      {
+        "phrase": "need to do",
+        "meaning": "〜する必要がある",
+        "note": "不定詞",
+        "leap_revised_no": null
+      },
+      {
+        "phrase": "make O C",
+        "meaning": "OをCの状態にする",
+        "note": "第5文型",
+        "leap_revised_no": null
+      }
+    ],
+    "cloze": [
+      {
+        "blank": "A",
+        "correct": "①",
+        "why": "サンプルデータの例。実際の問題では必ず公式正答と照合する。",
+        "other_choices": "これは架空の練習例。"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "name": "文法・語法",
+      "items": [
+        {
+          "label": "a",
+          "english": "Although both groups completed the same tasks, their results differed.",
+          "answer": "②",
+          "explanation": "Although の後ろには主語と動詞のある節が続く。",
+          "other_choices": "前置詞との違いに注意。"
+        }
+      ]
+    }
+  ]
+}
