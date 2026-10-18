@@ -96,3 +96,8 @@ references/leap-revised-verified-m4.md の既存照合済み見出しと番号�
 派生語や熟語に親見出しの番号をあたかもその語自身の番号として記載しない。関連見出しは別欄。未確認は—。
 全2300語の第三者の著作物リストを無断転載したり認証データを無断公開したりしない。正規版索引の現物がユーザーから提供される場合はローカルで照合し、公開リポジトリに含めない。
 公開資料 https://manabitagari.blog/archives/3106 と出版社 https://lab.chart.co.jp/info/461 で版を確認する。
+
+### 改訂版LEAPの全件自動照合（正規CSVを保有する場合）
+書籍由来の合法的に入手した改訂版見出し語CSVは公開せずローカルに置く。スクリプトを使えばすべての単語の番号を照合できる。
+python scripts/verify_leap_revised.py --lexicon /private/leap_revised.csv --terms /private/exam_words.txt --out /private/matches.csv
+完全一致だけに番号を付け、派生形・熟語は親候補だけ出力する。CSVの全件をGitHubに公開しない。
